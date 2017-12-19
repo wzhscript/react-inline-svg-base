@@ -1,0 +1,32 @@
+{
+    "presets": [
+        "react"
+    ],
+    "plugins": [
+        "transform-object-rest-spread"
+    ],
+    "env": {
+        "development": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "modules": "commonjs"
+                    }
+                ],
+                "stage-0"
+            ]
+        },
+        "es": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "modules": false
+                    }
+                ],
+                "stage-0"
+            ]
+        }
+    }
+}

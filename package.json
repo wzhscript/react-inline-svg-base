@@ -1,0 +1,44 @@
+{
+  "name": "react-inline-svg-base",
+  "version": "0.0.2",
+  "description": "base react component for inline svg, perfectly baseline aligned with font.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:es",
+    "build:cjs": "babel index.js --out-dir lib",
+    "build:es": "BABEL_ENV=es babel index.js --out-dir es",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzhscript/react-inline-svg-base.git"
+  },
+  "keywords": [
+    "react",
+    "inline",
+    "svg",
+    "baseline",
+    "icon"
+  ],
+  "author": "wzhscript <wzhscript@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wzhscript/react-inline-svg-base/issues"
+  },
+  "homepage": "https://github.com/wzhscript/react-inline-svg-base#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "omit": "^1.0.1",
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
