@@ -24,5 +24,5 @@ export default class BaseIcon extends Component {
 }
 
 Component.propTypes = {
-    size: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+    size: PropTypes.string
 };
