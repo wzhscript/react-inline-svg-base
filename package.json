@@ -1,6 +1,6 @@
 {
   "name": "react-inline-svg-base",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "base react component for inline svg, perfectly baseline aligned with font.",
   "main": "lib/index.js",
   "scripts": {
